@@ -1,0 +1,105 @@
+main .mainBlankSpace{
+  background-color: #FFC00F;
+  height: 1000px;
+}
+main .mainBlankSpace .mainBlankSpaceContent{
+  position: relative;
+  width: 100%;
+  z-index: 90;
+  width: 100%;
+  max-width: 1400px;
+
+}
+main .mainBlankSpace .mainBlankSpaceContent .intro{
+  margin-left: auto;
+  position: absolute;
+  border-bottom: 6px solid #FFC00F;
+  text-align: center;
+  padding: 10px;
+  z-index: 99;
+  margin: 0;
+  margin-top: 400px;
+  font-size: 50px;
+  color: white;
+  padding: 20px;
+  background-color: black;
+}
+main .maincontent{
+  position: relative;
+  background-color: rgba(0,0,0,0.3);
+  z-index: 99;
+
+  text-align: center;
+  color: white;
+}
+main .maincontent .flexi{
+
+  padding-bottom: 400px;
+}
+main .maincontent .flexi .potrait{
+  margin-top: -100px;
+}
+
+main .maincontent .flexi .potrait img{
+  border: 40px solid #FFC00F;
+}
+.flexi .potrait img{
+  animation: spinn 5s infinite;
+}
+@keyframes spinn {
+  50% {transform: rotate(10deg);}
+}
+.maincontent img{
+  max-width: 300px;
+}
+.maincontent .textContent:nth-child(even){
+  margin-left: auto;
+  margin-right: 0;
+}
+.maincontent .textContent:nth-child(odd){
+  margin-right: auto;
+  margin-left: 0;
+}
+.maincontent .textContent{
+  max-width: 1000px;
+  padding-bottom: 400px;
+
+
+}
+.maincontent .textContent .textContentDiv{
+  background-color: black;
+  background-color: rgba(63,63,63, 0.8);
+  padding: 20px;
+  border-bottom: 6px solid #FFC00F;
+}
+.maincontent .textContent .textContentDiv img{
+  max-width: 400px;
+  border-radius: 4px;
+  border: 2px solid #FFC00F;
+}
+.maincontent .textContent .lastJobs h3,.maincontent .textContent .lastJobs p{
+  background-color: white;
+  color: black;
+  font-family: 'Share Tech Mono', monospace;
+  margin: 0;
+}
+.maincontent .textContent .lastJobs ul{
+  background-color: white;
+  color: black;
+  font-family: 'Share Tech Mono', monospace;
+  list-style: none;
+  padding:10px;
+  margin:0;
+}
+.maincontent .textContent .lastJobs ul li:nth-child(2n){
+  background-color: lightgray;
+}
+.maincontent .textContent .lastJobs ul li{
+  text-align: left;
+  padding: 5px;
+  border: 1px solid black;
+}
+.bigger{
+  padding-top:20px;
+  padding-bottom: 20px;
+}

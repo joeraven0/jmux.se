@@ -1,0 +1,88 @@
+header{
+
+  height: 100vh;
+}
+header nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 1400px;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+
+}
+nav .contactPhone{
+  display: flex;
+
+}
+nav .contactPhone a{
+  font-size: 20px;
+margin-left: auto;
+  font-weight: bold;
+  padding: 8px;
+  text-decoration: none;
+
+
+}
+
+header nav .logo img{
+  height: 30px;
+  padding: 8px;
+
+}
+header .headerdiv{
+  background-color: #3f3f3f;
+}
+header .headerdiv .headerbg{
+  position: fixed;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+  background-image: url("../assets/bgimg.jpg");
+  background-size: cover;
+  background-position: center;
+  filter:brightness(0.8);
+
+
+}
+header .headerdiv .headerbgText{
+  display: flex;
+  height: 100vh;
+
+
+}
+@keyframes smooth {
+  50% {transform: rotate(1deg);}
+}
+@keyframes negsmooth {
+  50% {transform: rotate(-1deg);}
+}
+
+header .headerdiv .headerbgText .headerbgTextContent{
+
+  margin: auto;
+  margin-left: 0;
+  margin-right: auto;
+  text-align: center;
+  z-index: 90;
+  width: 100%;
+  max-width: 1400px;
+  font-size-adjust: 0.58;
+}
+header .headerdiv .headerbgText .headerbgTextContent h1{
+    font-size: 6em;
+animation: negsmooth 3s infinite;
+    margin:0;
+    color: #FFC00F;
+    padding: 20px;
+}
+header .headerdiv .headerbgText .headerbgTextContent h2{
+  font-size: 6em;
+animation: smooth 3s infinite;
+  margin:0;
+  color: white;
+}
