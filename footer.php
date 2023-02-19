@@ -6,11 +6,9 @@
     <h3>Hej hej!</h3>
   </div>
   <div class="contact">
-    <p>JMUX Mjukvara & datahantering</p>
-    <p>Joakim Ringstad</p>
-    <p>0790-222881</p>
-    <p>joakim@jmux.se</p>
-    <p>Postadress: Bergmästarevägen 8D, 691 52 Karlskoga (endast post, ej besöksadress)</p>
+    <p>JMUX Mjukvara & datahantering<br>Joakim Ringstad<br>0790-222881<br>joakim@jmux.se</p>
+    <p>Postadress: Bergmästarevägen 8D, 691 52 Karlskoga (endast post, ej besöksadress)<br>
+    Godkänd för F-skatt</p>
   </div>
 </div>
 </footer>
@@ -33,4 +31,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
 </html>
