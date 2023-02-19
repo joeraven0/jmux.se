@@ -1,6 +1,6 @@
 main .mainBlankSpace{
   background-color: #FFC00F;
-  height: 1000px;
+  height: 200vh;
 }
 main .mainBlankSpace .mainBlankSpaceContent{
   position: relative;
@@ -10,6 +10,7 @@ main .mainBlankSpace .mainBlankSpaceContent{
   max-width: 1400px;
 
 }
+
 main .mainBlankSpace .mainBlankSpaceContent .intro{
   margin-left: auto;
   position: absolute;
@@ -73,7 +74,6 @@ main .maincontent .flexi .potrait img{
   border-bottom: 6px solid #FFC00F;
 }
 .maincontent .textContent .textContentDiv img{
-  max-width: 400px;
   border-radius: 4px;
   border: 2px solid #FFC00F;
 }
@@ -102,4 +102,12 @@ main .maincontent .flexi .potrait img{
 .bigger{
   padding-top:20px;
   padding-bottom: 20px;
+}
+.black{
+  opacity: 1;
+  background-color: black;
+  background-color: rgba(0,0,0,1)!important;
+}
+main h1,main h2,main h3,main h4,main h5{
+  color: #FFC00F;
 }
