@@ -27,7 +27,8 @@
         <div class="headerbgTextContent">
           <h1>TEKNISK HJÄLP I HEMMET</h1><br>
           <h2>KARLSKOGA & DEGERFORS</h2>
-          <p>Ett sidoföretag som reparerar allt från datorer till robotdammsugare</p>
+          <p>Ett sidoföretag som reparerar allt från datorer till kretskort</p>
+          <p>&#169; 2021-<?php echo Date("Y");?></p>
         </div>
       </div>
     </div>
