@@ -63,7 +63,7 @@ header .headerdiv .headerbg{
   background-size: cover;
   background-position: center;
   filter:brightness(0.1);
-  max-width: 1400px;
+  /*max-width: 1400px;*/
   transition: 0.4s;
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;

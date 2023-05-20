@@ -14,7 +14,8 @@ main .mainBlankSpace .mainBlankSpaceContent{
   max-width: 1400px;
 }
 .box_background{
-  background-color: rgba(72,183,187,0.1);
+  /*background-color: rgba(72,183,187,0.1);*/
+  background-color: rgba(60,40,10,0.2);
 }
 main .mainBlankSpace .mainBlankSpaceContent .intro{
   position: relative;
@@ -58,12 +59,10 @@ main .maincontent .flexi .potrait img{
 @keyframes spinn {
   50% {transform: rotate(10deg);}
 }
-.maincontent img{
-  max-width: 300px;
-}
+
 .maincontent .textContent{
   /*max-width: 1000px;*/
-  margin-bottom: 400px;
+  margin-top: 400px;
   position: relative;
 
 }
@@ -79,15 +78,11 @@ main .maincontent .flexi .potrait img{
 }
 .maincontent .textContent .textContentDiv img{
   border-radius: 3px;
+  max-width: 70%;
+  object-fit: cover;
   /*border: 2px solid rgba(227, 175, 72,1);*/
 }
-.maincontent .textContent .lastJobs ul{
-  color: white;
-}
-.maincontent .textContent .lastJobs ul li{
-  text-align: left;
-  padding: 5px;
-}
+
 .bigger{
   padding-top:20px;
   padding-bottom: 20px;
@@ -105,14 +100,7 @@ main .maincontent .flexi .potrait img{
     margin-left: 0;
   }
 }
-main .maincontent .potrait .payment_solutions .payment{
-  display: inline-block;
-}
-main .maincontent .potrait .payment_solutions .payment img{
-  max-height: 500px;
-  border: none;
 
-}
 @media only screen and (max-width: 550px) {
   h3{
     font-size: 2rem;

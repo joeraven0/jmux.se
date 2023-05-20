@@ -1,0 +1,70 @@
+.customer_stories_flex{
+
+
+    display: flex;
+    justify-content: center;
+    
+}
+.customer_stories_flex .img_gallery p{
+    /*color: rgba(227, 175, 72,1);*/
+    color: white;
+    max-width: 800px;
+}
+.customer_stories .lastJobs{
+    display: flex;
+}
+.customer_stories .lastJobs_margin{
+    margin: auto;
+}
+.customer_stories .lastJobs ul{
+    color: white;
+  }
+.customer_stories  .lastJobs ul li{
+    text-align: left;
+    padding: 5px;
+  }
+.customer_stories .img_gallery .gallery_img{
+    
+    margin: 20px;
+    margin-bottom: 80px;
+    padding: 10px;
+
+
+}
+.customer_stories .img_gallery .gallery_img .fixedSize{
+
+}
+.customer_stories .img_gallery .gallery_img .fixedSize img{
+
+    width: 400px;   
+    height: 400px;
+    object-fit: cover;
+    border-radius: 3px;
+    margin: 20px;
+    margin-bottom: 0;
+ 
+
+
+    filter:contrast(1.1) saturate(0.6);   
+}
+
+.customer_stories .img_gallery .gallery_img img:hover{
+    filter:contrast(1.1) saturate(0.6); 
+    transition: .5s;
+}
+@media only screen and (max-width: 550px) {
+    .customer_stories .img_gallery .gallery_img .fixedSize img{
+        width: auto;
+        height: auto;
+        max-width: 400px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .customer_stories_flex{
+        display:block;
+    }
+    .customer_stories .img_gallery .gallery_img{
+        margin: 0;
+        padding:0;
+    }
+  }
