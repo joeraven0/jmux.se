@@ -1,5 +1,4 @@
 main{
-  max-width: 1400px;
   margin: auto;
 }
 main .mainBlankSpace{
@@ -13,10 +12,10 @@ main .mainBlankSpace .mainBlankSpaceContent{
   z-index: 90;
   width: 100%;
   max-width: 1400px;
-  
-
 }
-
+.box_background{
+  background-color: rgba(72,183,187,0.1);
+}
 main .mainBlankSpace .mainBlankSpaceContent .intro{
   position: relative;
   text-align: center;
@@ -25,12 +24,10 @@ main .mainBlankSpace .mainBlankSpaceContent .intro{
   font-size: 50px;
   color: white;
   padding: 20px;
-  background-color: rgba(0,0,0,0.3);
-  border-radius: 5px;
 }
 main .maincontent{
   position: relative;
-  background-color: rgba(91,84,69,0.2);
+  /*background-color: rgba(91,84,69,0.2);*/
   z-index: 99;
   border-radius: 5px;
   text-align: center;
@@ -46,14 +43,12 @@ main .maincontent .flexi .potrait{
 }
 main .maincontent .flexi .potrait .potrait-textContent{
   padding: 15px;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(60,40,10,0.1);
   padding-top: 90px;
   margin-top: -70px;
   border-radius: 5px;
 }
-main .maincontent .flexi .potrait p{
-  /*color: rgba(227, 175, 72,1);*/
-}
+
 main .maincontent .flexi .potrait img{
   border: 6px solid rgba(227, 175, 72,1);
 }
@@ -66,33 +61,25 @@ main .maincontent .flexi .potrait img{
 .maincontent img{
   max-width: 300px;
 }
-.maincontent .textContent:nth-child(even){
-  margin-left: auto;
-  margin-right: 70px;
-}
-.maincontent .textContent:nth-child(odd){
-  margin-right: auto;
-  margin-left: 70px;
-}
 .maincontent .textContent{
-  max-width: 1000px;
-  padding-bottom: 400px;
-
+  /*max-width: 1000px;*/
+  margin-bottom: 400px;
+  position: relative;
 
 }
 .maincontent .textContent .textContentDiv{
-  background-color: rgba(0,0,0,0.3);
   padding: 20px;
-  border-radius: 5px;
+  max-width: 1100px;
   padding-bottom: 70px;
+  margin-left: 90px;
 }
 .maincontent .textContent .textContentDiv p{
   padding-left: 50px;
   padding-right: 50px;
 }
 .maincontent .textContent .textContentDiv img{
-  border-radius: 5px;
-  border: 2px solid rgba(227, 175, 72,1);
+  border-radius: 3px;
+  /*border: 2px solid rgba(227, 175, 72,1);*/
 }
 .maincontent .textContent .lastJobs ul{
   color: white;
@@ -118,9 +105,20 @@ main .maincontent .flexi .potrait img{
     margin-left: 0;
   }
 }
+main .maincontent .potrait .payment_solutions .payment{
+  display: inline-block;
+}
+main .maincontent .potrait .payment_solutions .payment img{
+  max-height: 500px;
+  border: none;
+
+}
 @media only screen and (max-width: 550px) {
   h3{
     font-size: 2rem;
+  }
+  .maincontent .textContent .textContentDiv{
+    margin-left:0;
   }
   .maincontent .textContent .textContentDiv p{
     padding-left: 0px;

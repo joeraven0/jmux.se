@@ -23,14 +23,12 @@
     </nav>
     <div class="headerdiv">
       <div class="headerbg"></div>
-      <video autoplay muted loop id="myVideo">
-      <source src="linkhere" type="video/mp4">
-    </video>
       <div class="headerbgText">
         <div class="headerbgTextContent">
           <h1>TEKNISK HJÄLP I HEMMET</h1><br>
           <h2>KARLSKOGA &<br>DEGERFORS</h2>
-          <p>Ett sidoföretag som reparerar allt från datorer till kretskort</p>
+          <p>Ett sidoföretag som reparerar allt från datorer till kretskort.<br>
+          I en tid där vi lärt oss att bara köpa nytt.</p>
           <p>&#169; 2021-<?php echo Date("Y");?></p>
         </div>
       </div>

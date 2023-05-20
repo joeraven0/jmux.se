@@ -38,12 +38,19 @@ header .headerdiv{
 }
 /*Background image here. Video or headerbg*/
 #myVideo {
-  position: fixed;
-  display: none;
+  position: absolute;
+  top: 0;
   right: 0;
   bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  object-fit: cover;
+  max-width: 100vw;
+  max-height: 100%;
+  padding-top: 0;
+  filter: brightness(0.6);
 }
 header .headerdiv .headerbg{
   position: fixed;
@@ -51,16 +58,22 @@ header .headerdiv .headerbg{
   background-position: center;
   height: 100vh;
   width: 100%;
-  
   margin: auto;
   background-image: url("../assets/bgimg.jpg");
   background-size: cover;
   background-position: center;
-  filter:brightness(0.8);
+  filter:brightness(0.1);
+  max-width: 1400px;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  -moz-transition: 0.4s;
+  
 
 
 }
 header .headerdiv .headerbgText{
+  
   display: flex;
   height: 100vh;
 
@@ -74,7 +87,7 @@ header .headerdiv .headerbgText{
 }
 
 header .headerdiv .headerbgText .headerbgTextContent{
-
+  display: none;
   margin: auto;
   text-align: center;
   z-index: 90;
