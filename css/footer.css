@@ -15,6 +15,7 @@ footer{
 footer p{
   font-size: 20px;
   text-align: left;
+  max-width: 500px;
 }
 footer .flex{
 
@@ -30,6 +31,7 @@ footer .flexi .contact {
   padding-left: 30px;
   margin-top: auto;
   margin-bottom: auto;
+  max-width: 800px;
 }
 .potrait{
   color: white;

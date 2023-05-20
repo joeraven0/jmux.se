@@ -1,0 +1,1 @@
+<?php include 'customer_stories/content.php' ?>
